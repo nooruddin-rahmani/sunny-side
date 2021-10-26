@@ -63,8 +63,9 @@ const Container = styled.div`
       background: hsl(7, 99%, 70%);
       display: flex;
       position: relative;
-      top: -0.5vh;
-      opacity: 0.3;
+      top: -0.8vh;
+      opacity: 0.7;
+      border-radius: 5px;
     }
   }
 `;
