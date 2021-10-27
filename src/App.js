@@ -4,6 +4,7 @@ import Main from "./components/Main";
 import SectionTwo from "./components/SectionTwo";
 import SectionThree from "./components/SectionThree";
 import SectionFour from "./components/SectionFour";
+import Testeminials from "./components/Testeminials";
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
       <SectionTwo />
       <SectionThree />
       <SectionFour />
+      <Testeminials />
     </div>
   );
 }
