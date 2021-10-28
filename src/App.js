@@ -5,6 +5,7 @@ import SectionTwo from "./components/SectionTwo";
 import SectionThree from "./components/SectionThree";
 import SectionFour from "./components/SectionFour";
 import Testeminials from "./components/Testeminials";
+import Images from "./components/Images";
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
       <SectionThree />
       <SectionFour />
       <Testeminials />
+      <Images />
     </div>
   );
 }
