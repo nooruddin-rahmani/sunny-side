@@ -25,6 +25,6 @@ const MainSection = styled.div`
     margin-bottom: 18vh;
   }
   img {
-    margin-bottom: 50vh;
+    margin-bottom: 5vw;
   }
 `;

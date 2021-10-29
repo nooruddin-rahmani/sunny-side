@@ -35,6 +35,13 @@ const SunnyHeader = styled.header`
         list-style-type: none;
         padding: 0vh 2vw;
       }
+      li:hover {
+        cursor: pointer;
+        li:nth-child(4):hover {
+          color: hsl(213, 9%, 39%);
+          background: hsl(0, 0%, 100%);
+        }
+      }
       li:nth-child(4) {
         color: hsl(213, 9%, 39%);
         font-family: serif;
