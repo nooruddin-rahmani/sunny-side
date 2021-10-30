@@ -10,7 +10,7 @@ function Header() {
           <li>About</li>
           <li>Services</li>
           <li>Projects</li>
-          <li>CONTACT</li>
+          <li className="contact">CONTACT</li>
         </ul>
       </nav>
     </SunnyHeader>
@@ -37,10 +37,10 @@ const SunnyHeader = styled.header`
       }
       li:hover {
         cursor: pointer;
-        li:nth-child(4):hover {
-          color: hsl(213, 9%, 39%);
-          background: hsl(0, 0%, 100%);
-        }
+      }
+      .contact:hover {
+        color: hsl(0, 0%, 100%);
+        background: hsl(199, 84%, 73%);
       }
       li:nth-child(4) {
         color: hsl(213, 9%, 39%);

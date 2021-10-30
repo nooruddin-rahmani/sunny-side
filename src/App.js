@@ -20,26 +20,14 @@ function App() {
       <Testeminials />
       <Images />
       <Footer />
-
-      <Attribution>
-        Challenge by{" "}
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-          Frontend Mentor
-        </a>
-        . Coded by <a href="#"> Nooruddin</a>.
-      </Attribution>
     </div>
   );
 }
 
 export default App;
 const LandingComponent = styled.div`
+  height: 1000px;
   background: url("./images/desktop/image-header.jpg");
   background-size: cover;
-`;
-const Attribution = styled.div`
-  background: #6dd3be;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-position: center;
 `;

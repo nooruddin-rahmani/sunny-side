@@ -18,13 +18,10 @@ const MainSection = styled.div`
   flex-direction: column;
   h1 {
     font-weight: 900;
-    font-size: 8vh;
+    font-size: 10vh;
     color: hsl(0, 0%, 100%);
     font-family: "Fraunces", serif;
     word-spacing: 5px;
-    margin-bottom: 18vh;
-  }
-  img {
-    margin-bottom: 5vw;
+    margin-bottom: 20vh;
   }
 `;
